@@ -19,7 +19,7 @@ resource "aws_vpc" "hashicat" {
     name = "${var.prefix}-vpc-${var.region}"
     environment = "Production"
     Department = "devops"
-    Billable = "yes"
+    Billable = "true"
   }
 }
 
